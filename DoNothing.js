@@ -1,4 +1,6 @@
 
 export function doNothing() {
-    return
+    let x = "do"
+    let y = "something"
+    throw new Error(x + y)
 }
